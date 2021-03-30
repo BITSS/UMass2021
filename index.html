@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Research Transparency Training for EASST Fellows</title>
+    <title>Research Transparency in Social Science</title>
     <meta charset="utf-8" />
     <meta name="author" content="Fernando Hoces de la Guardia, BITSS" />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -13,16 +13,19 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Research Transparency Training for EASST Fellows
-## Center for Effective Global Action
+# Research Transparency in Social Science
+## Prof. Theodoridis Seminar, UMass
 ### Fernando Hoces de la Guardia, BITSS
-### March 2021 | <a href="https://bitss.github.io/CEGA2021/">slides</a>
+### March 2021 | <a href="https://bitss.github.io/UMass20201/">slides</a>
 
 ---
 
-class: inverse, center, middle
-name: prologue
+background-image: url("Images/BITSSlogo.png"), url(Images/cega.png)
+background-size: contain, 200px
+background-position: 50% 100% , 0% 100% 
+count:true 
 
+#[BITSS](https://bitss.org)   
 
 &lt;style&gt;
 
@@ -79,39 +82,7 @@ pre.sourceCode {
 
 
 
----
-class: inverse, middle
-name: main
 
-.font170[
-Two part workshop:  
-- [Part I](#part1): Introduction to Research Transparency and BITSS (ACRE)
-- [Part II](#part2): Hands-on Tutorial on Git/Github and Dynamic Documents
-]
-
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
-
- 
-
----
-class: inverse, center, middle
-name: part1
-
-
-# Part I: Introduction to Research Transparency and BITSS (ACRE)
-
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
-
- 
----
-background-image: url("Images/BITSSlogo.png"), url(Images/cega.png)
-background-size: contain, 200px
-background-position: 50% 100% , 0% 100% 
-count:true 
-
-# [BITSS](https://bitss.org)   
 
 .pull-left[
 The Berkeley Initiative for Transparency in the Social Sciences works to improve &lt;/br&gt;the credibility of science by &lt;/br&gt;
@@ -287,33 +258,114 @@ count:false
 ---
 name: bitss 
 
-# .font80[What has BITSS done to address this issues?]
+# .font80[Main Solutions]
 
 .font140[
-1. Awareness on the problems and solutions: papers, manuals and convenings (RT2)
+1. Registrations
 
-2. Learning: funded and conducted research on research; hosted pre-prints 
+2. Pre Analysis Plans 
 
-3. Community building: Annual Meeting, Catalysts, blog
+3. Computational Reproducibility
 
 ]
 
 
 ---
 
-# INSERT SLIDES FROM PPT
+# Registrations
+&lt;br&gt;
+.font130[
+- A registration is a record that contains minimal information about a study: title, authors, study country, status, keywords, abstract, start and end dates, outcomes, intervention information, basic research design, whether or not treatments are clustered (when performing an RCT), and Institutional Review Board (IRB) information. 
+
+
+- Preferably, it should be recorded before analyzing data
+
+- **The main goal:** track the complete body of knowledge in a topic of research, regardless of the direction and magnitude of the results.
+
+]
 
 
 ---
-# .font80[What is BITSS currently doing]
+background-image: url("Images/plosone.PNG")
+background-size: contain
+background-position: 50% 100%  
 
-1. Community building: Annual Meeting, Catalysts, RT2  
+# Why Register: Kaplan and Irvin (2015)
 
-2. Super Forecasters in Social Sciences
 
-3. Accelerating Computational Reproducibility (ACRe)
+---
+# .font80[Pre-Analysis Plans]
+&lt;br&gt;
+.font140[
+- PAPs are **extensive** methodological descriptions of the analysis to be performed before the endline data is collected
 
-4. Open Policy Analysis (OPA)
+- Helps to prevents p-hacking  
+
+- Only way to guarantee accurate statistical testing
+
+- Distinguishes confirmatory from exploratory analysis
+]
+
+
+---
+# How to do a PAP
+
+
+.font130[
+
+Christensen, Freese and Miguel (2020) suggest detailed information on:
+
+.pull-left[
+1 - Detail study design  
+2 - Sampling details  
+3 - Outcome Measures  
+4 - Index construction  
+5 - Multiple hypothesis adjustments  
+6 - Subgroup analysis  
+]
+
+.pull-right[
+7 - Direction of the effect (optional)  
+8 - Exact statistical specification  
+9 - Structural model (optional)  
+10 - Timestamp  
+]
+
+]
+
+---
+# Common Concerns About PAPs
+&lt;br&gt;
+.font130[
+|                                                           Critique                                                           |                                                                                                Response                                                                                               |
+|:----------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                PAPs take too much time and are &lt;br&gt;too difficult (Olken 2015)                                |                                                         A PAP changes the timing of the analytic &lt;br&gt;component, not clear that it increases it                                                        |
+|                  Scientific discovery often comes&lt;br&gt;from surprises. PAPs stifle &lt;br&gt;discovery (Olken 2015)                  |           PAPs do not prevent researchers from doing &lt;br&gt;exploratory work; they only require &lt;br&gt;researchers to be clear about the objectives &lt;br&gt;of their analyses (Ofosu and Posner 2020).          |
+| If replications are cheap they will &lt;br&gt;rule out false positives, making &lt;br&gt;PAPs irrelevant.&lt;br&gt;(Coffman and Niederle 2015) | Very few experiments are inexpensive as to perform &lt;br&gt;many replications. Moreover, most of the false &lt;br&gt;positives have been identified where experiments &lt;br&gt;are least expensive (lab experiments). |
+]
+
+---
+background-image: url("Images/GoBifo1.PNG")
+background-size: contain
+background-position: 50% 100%  
+# Why do a PAP: Casey et. al. ([2012](https://academic.oup.com/qje/article-abstract/127/4/1755/1841616?redirectedFrom=fulltext))
+
+
+---
+background-image: url("Images/results_blind_review.png")
+background-size: contain
+background-position: 50% 100%  
+# Another Reason: Register Reports
+
+
+
+---
+background-image: url("Images/3s_change.png")
+background-size: contain
+background-position: 50% 100%  
+# Change is Happenning: Christensen et. al., ([2020](https://osf.io/preprints/metaarxiv/5rksu/))
+
+
 
 ---
 count:false
@@ -335,10 +387,11 @@ count:false
 name:acre
 
 # .font90[Accelerating Computational Reproducibility (ACRe)]     
-
+.font120[
 In addition to reproducibility problems, there are two additional motivations for this projects:   
+] 
 
-## M2: More Inclusive Concept Scholarly Output
+## Additional Motivation: More Inclusive Concept Scholarly Output
 
 .font120[
     &lt;blockquote&gt;
@@ -356,7 +409,8 @@ In addition to reproducibility problems, there are two additional motivations fo
 
 In addition to reproducibility problems, there are two additional motivations for this projects:   
 
-## M2: More Inclusive Concept Scholarly Output
+##  Additional Motivation: More Inclusive Concept Scholarly Output
+
 .font120[
     &lt;blockquote&gt;
     Clarebout Principle:
@@ -1998,528 +2052,6 @@ Researchers can see clearly where their estimates are being used in a policy ana
 
 ## Connection with forecasting
 When there is little information for a parameter used in an OPA, a forecasting exercise can be carried out to elicit expert knowledge (DellaVigna, Pope, Vivalt [2019](https://science.sciencemag.org/content/366/6464/428.summary)).
-
-
----
-class: inverse, middle
-name: main
-
-.font170[
-Two part workshop:  
-- [Part I](#part1): Introduction to Research Transparency and BITSS (ACRE)
-- [Part II](#part2): Hands-on Tutorial on Git/Github and Dynamic Documents
-]
-
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
-
-
----
-class: inverse, center, middle
-name: part2
-
-# Part II: Hands-on Tutorial on Git/Github and Dynamic Documents
-
-
-&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
-
----
-count:false
-
-# Table of Contents
-
-&lt;/br&gt;
-.font130[
-1. [Git/Github Without the Command Line](#git)
-
-2. [Dynamic Documens using R](#DD)
-]
----
-
-# Git/Github for Version Control 
-&lt;br&gt;
-.font140[
-- Git and Github are tools to track the complete history of your files.   
-
-- They are very popular among programmers, but not so much among non-programmers. 
-
-- Why? I believe it has to do with GUIs.
-
-]
----
-
-# What is a GUI and why the bad reputation
-&lt;br&gt;
-.font140[
-
-**G**raphical **U**ser **I**nterface   
-
-- For most of us (non-programmers): *GUI = Software*.  
-
-- GUIs are behind the popularization of personal computers. 
-
-- Unfortunately GUIs are pretty bad at keeping a record of actions taken (bad for reproducibility).
-]
-
----
-
-# What is not a GUI?
-
-- Any software that is run in the command line (aka terminal, shell, bash, etc).  
-
-![](Images/command_line.png)
-  
-- Git was designed to run in the command line.
-
-- Today we will learn Git **without** the command line.
-
----
-
-# What is Git 1/2
-.font140[
-- Git is a software designed to track the **entire** history of the code of a project. 
-
-- Designed originally for software development, it has gained important traction in the research community. 
-
-- Main appeal: facilitates full reproducibility and collaboration. 
-
-- Git is mainly meant to work as a non-GUI (in the command line) software.   
-**However:** most of the key features can be used through a GUI. 
-]
----
-
-# What is Git 2/2
-
-.font140[ 
-
-- By code git understands any type of plain text file (`myfile.R`, `myfile.do`, `.tex/.md/.txt/.csv/.etc`).
-
-- This type of file can be understood as "human readable" as machine and human see the same fie. 
-
-- Files that are "non-human readable" are called binary files (`myfile.docx`, `myfile.xlxs`, `.pdf/.exe/.dta/.etc`).
-
-- Git can also detect changes in binary files, but it cannot show those changes.
-]
-
----
-
-# What is Github
-.font140[
-- Github is a company that provides two services (that we care of): 
-  - A web hosting service for all our files track with git (public free/private $ or free if academic).  
-  - A GUI software (Desktop App) that provides user friendly access to git.
-
-- Others hosting ss include: Bitbucket, GitLab, Gitkraken, etc. 
-
-- Other GUIs include: SourceTree, Gitkraken, Atom, RStudio.
-
-]
-
----
-
-# The Primary Goal of Version Control (for us)
-&lt;br&gt;
-.font140[
-
-**The Goal:** keep track of any potentially meaningful modification to your code.  
-]
---
-.font140[
-**Secondary Goal:** learn how to collaborate with others using Github.   
-]
---
-.font140[
-**Bonus track:** get you excited about using open source statistical software (R, Python, Julia, etc)
-]
-
----
-# Strategy 1:  
-&lt;br&gt;
-.font140[
-
-1. Agree on a naming convention with your co-authors (eg: YYYYMMDDfilename_INITALS).  
-
-2. Begin working from the last saved version (eg: `20180325demo_FH.do`).  
-3. At the end of the day, save on a new version (eg: `20180327demo_FH.do`).  
-
-**Pros:** Easy adoption.   
-
-**Cons:** Error prone, hard to document, lots of files for each document.     
-]
----
-
-# Strategy 2:  
-&lt;br&gt;
-.font140[
-
-
-1 - Name your file `filename` (ideally `01_filename`)  
-2 - Take a snapshot of your work every time you complete relevant change (day, hour or minutes).  
-3 - Update your entire working folder to the cloud.   
-
-
-**Pros:** Error proof, seamless documentation, one file per document, track differences across all versions, meant to work with the cloud. 
-
-**Cons:** Harder adoption.   
-]
----
-background-image: url("Images/phdcomics.png")
-background-size: contain
-
-
-# We want to avoid this situation:   
-
-
----
-background-image: url("Images/version_control_diagram.svg")
-background-size: contain 
-
-# Comparison of Workflows
-
-
----
-
-# Other reasons to use git
-&lt;br&gt;
-.font140[
-
-- To access a whole new world of knowledge!    
-
-- Great tool for collaboration.  
-- Easier to test all sorts of ideas/models. 
-]
----
-background-image: url("Images/git.png")
-background-size: contain
-
-# Managing expectations
-&lt;!--
-talk about undo here
---&gt;
----
-# Demos
-
-## Five Demos: 
-&lt;br&gt;
-.font140[
-
-1 - **Simple but instructive.**   
-
-2 - Repeat with branches.  
- 
-3 - Repeat with collaboration: pull requests.   
-
-4 - Repeat with collaboration: shared ownership.   
-
-5 - Explore a real life repo.    
-]
----
-
-# Demo #1: We Start in the Cloud 
-&lt;br&gt;
-.font140[
-
-1 -  Create [github.com](github.com) account and sign in.   
-
-2 -  Let's look at some **repos**.   
-
-3 -  First way to access content: download.   
-
-4 -  What if you want to have your own copy of the repo? **Fork** it!  
-
-5 -  Now create your own repo. Initiate readme and make some edits.   
-]
----
-# Demo #1: We move to our local computer 
-&lt;br&gt;
-.font140[
-
-6 - Clone the repo. Explore the files and location.   
-
-7 - Create new files, edit. And commit. Edit again, and commit again.   
-
-8 - Push. Edit on github.com, and pull.   
-
-9 - For this tutorial, best way to access previous version: explore in github.com and download.
-
-]
----
-# Five Demos 2/5: 
-&lt;br&gt;
-.font140[
-
-1 - Simple but instructive.   
-    *Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.*   
-
-2 - **Repeat with branches.**  
- 
-3 - Repeat with collaboration: pull requests.   
-
-4 - Repeat with collaboration: shared ownership.   
-
-5 - Explore a real life repo.     
-    ]
----
-# .font80[Demo #2: Branches and collaboration (we wil be here a while)]
-&lt;br&gt;
-.font140[
-
-1 - Create a branch from previous repo.  
-
-2 - Add new content (do not replace), commit a few times, and go back and forth to the main branch.  
-
-3 - Go back to main branch (master), observe file, merge.  
-
-4 - Look at the history of the main branch.   
-
-5 - Repeat 1-3 but now replace instead of adding content.    
- 
-]
----
-# Fatal Error!
-
-&lt;img src="Images/error_image.png" width="50%" style="display: block; margin: auto;" /&gt;
-
-
-
----
-background-image: url("Images/calm_burn.jpg")
-background-size: contain
-
-# Burn it and start with a fresh copy!
----
-# Five Demos: 3/5 
-
-&lt;br&gt;
-.font140[
-
-
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
-    
-2 - Repeat with branches.  
-    *Review: All of the above, plus: branch, merge, resolve conflicts.*  
-    
-3 - **Repeat with collaboration: pull requests.**  
-
-4 - Repeat with collaboration: shared ownership.     
-
-5 - Explore a real life repo.  
-
-
-]
----
-# Demo #3: Pull requests
-&lt;br&gt;
-.font140[
-
-1 - Fork repo [github.com/BITSS/test_birthday](https://github.com/BITSS/test_birthday), and clone it into your machine.  
-
-2 - Edit fields of name, and birth date.   
-
-3 - Save, commit and push.   
-
-4 - Create your first **pull request**.   
-
-5 - Let's see if I can manage all those pull requests very quickly (maybe illustrate issues).   
-
-6 - Now find your neighbors repo of Demos 1 &amp; 2, fork it, clone it, make a change, save, commit, and...
-] 
-
----
-# Two formats of collaboration  
-&lt;br&gt;
-.font140[
-
-- One owner, many pull requests.  
-    - Easier to control, requires constant updating.   
-    
-- Many owners, all can push.   
-    - **Very** important to pull at the beginning and at before each push. 
-]
----
-# Five Demos: 4/5 
-.font140[
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
-    
-2 - Repeat with branches.  
-    Review: All of the above, plus: branch, merge, resolve conflicts.   
-    
-3 - Repeat with collaboration: pull requests.   
-    *Review: collaborate via fork + PR*  
-    
-4 - **Repeat with collaboration: shared ownership. **    
-
-5 - Explore a real life repo.  
-
-]
----
-# Demo #4: Many owners
-
-.font140[
-    
-1 - Half of you (\#1): go back to the repo of demo 1 &amp; 2 and invite a collaborator.  
-(Suggestion: the "forker" creates the repo, the "forkee" is invited  
-, edit, commit, push/pull)  
-]
---
-.font140[
-2 - The other half (\#2): clones, commits and pushes.  
-]
---
-.font140[
-3 - \#1 commits and pushes in **different lines**.    
-]
---
-.font140[
-4 - Switch and repeat 2 &amp; 3: \#2 commits first and pushes, then \#1.    
-]
---
-.font140[
-5 - Repeat 2 - 4 but now both of you in the same lines.    
-]
-
---
-.font140[
-6 - Repeat now but with branches (optional).    
-]
-
-
-
----
-# Five Demos: 4/5 
-.font140[
-
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
-
-2 - Repeat with branches.  
-    Review: All of the above, plus: branch, merge, resolve conflicts.   
-
-3 - Repeat with collaboration: pull requests.   
-    Review: collaborate via fork + PR  
-
-4 - Repeat with collaboration: shared ownership.     
-    *Review: collaborate via share ownership.*  
-
-5 - **Explore a real life repo. ** 
-]   
-
-
----
-# Demo #5: .font80[Look inside a real-life project (and collaborate!)]
-.font140[
-1-  Find the following repo: `github.com/BITSS/opa-wealthtax`.   
-
-2-  Fork it and clone it.    
-
-3-  Open it in your computer: `opa-wealthtax.Rproj` (needs RStudio), look around and execute 
-`code/dynamic_doc/wealth_tax_dd.Rmd`.  
-
-4-  Find elasticities, fill in csv, document, submit.
-
-5 - Find `code/interactive_visualization/server.R` and in line `1561` change `red` to `blue`
-]
-
-
-
----
-# Five Demos: 5/5 
-.font140[
-1 - Simple but instructive.   
-    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete, search repo, download old version.  
-    
-2 - Repeat with branches.  
-    Review: All of the above, plus: branch, merge, resolve conflicts.   
-    
-3 - Repeat with collaboration: pull requests.   
-    Review: collaborate via fork + PR  
-    
-4 - Repeat with collaboration: shared ownership.     
-    Review: collaborate via share ownership.  
-    
-5 - Explore a real life repo.  
-    *Review: All of the above, plus: how does a real-life example looks like.* 
-]
-
----
-# Now go and explore!
-&lt;br&gt;
-.font140[
-
-Some good habits:   
-- Commit often (&lt;1hr)  
-
-- Always pull before you start a new session of work. Also good to pull before pushing.    
-
-- Think of your remote as the most important set of files. Get used to deleting things in your local machine.    
-]
-
----
-# Want to Learn More: Version Control
-
-## Tutorials
-
-.font140[
-
-- [Great 20 min intro to Git by Alice Bartlett](https://www.youtube.com/watch?v=eWxxfttcMts)  
-- [Great 2hr tutorial to Github by Jenny Bryan (git ninja)](https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/)  
-- Software Carpentry's [step-by-step tutorial (command line)](https://swcarpentry.github.io/git-novice/). 
-]
-
-## Documentation
-
-.font140[
-
-- Jenny Bryan's [Happy Git](http://happygitwithr.com/)
-- [Documentation from Matthew Gentzkow and Jesse Shapiro](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)
-- Karthik Ram's paper on [Git for Research](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7) 
-]
-
----
-# .font80[Economists Doing Highly Reproducible Work&lt;sup&gt;1&lt;/sup&gt;] 
-
-.pull-left[
-
-**People**
-- [Nick Huntingon](https://github.com/NickCH-K) 
-- [Shoshana Vasserman](https://github.com/shoshievass)  
-- [Lars Vilhuber](https://github.com/larsvilhuber)
-- [Grant McDermott](https://github.com/grantmcdermott)
-- [Tyler Ransom](https://github.com/tyleransom)
-- [Ed Rubin](https://github.com/edrubin)
-- [Luiza Andrade](https://github.com/luizaandrade)
-- [Max Kasy](https://github.com/maxkasy)
-- [Matt Jensen](https://github.com/MattHJensen)
-- [Richard Evans](https://github.com/rickecon)
-- [John Horton](https://github.com/johnjosephhorton)
-- [Cora Kingdon](https://github.com/ckingdon95)
-
-]
-.pull-right[
-- [Alvaro Carril](https://github.com/acarril)
-- [Andrew Heiss](https://github.com/andrewheiss)
-- [Lisa Rennels](https://github.com/lrennels)
-- [Michael Stepner](https://github.com/michaelstepner)
-- [Lachlan Deer](https://github.com/lachlandeer) 
-- [Rebekah Din](https://github.com/rebekahanne)
-
-
-**Organizations**
-- [LOST](https://lost-stats.github.io/)
-- [Opportunity Lab](https://github.com/Opportunitylab)
-- [Congressional Budget Office](https://github.com/US-CBO)
-- [Policy Simulation Library](https://github.com/PSLmodels)
-- [Gentzkow &amp; Shapiro Lab](https://github.com/gslab-econ)
-- [Urban Institute](https://github.com/UrbanInstitute)
-]
-
-&lt;/br&gt;&lt;/br&gt;
-.footnote[
-[1]: Non-exhaustive list of people and organizations doing amazing reproducible work on github (other than us!)
-]
-
 
 
 
