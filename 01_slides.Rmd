@@ -2,10 +2,10 @@
 title: "Research Transparency in Social Science"
 author: "Fernando Hoces de la Guardia, BITSS"
 subtitle: "Prof. Theodoridis Seminar, UMass"
-date:  "March 2021 | [slides](https://bitss.github.io/UMass20201/)"
+date:  "March 2021 | [slides](https://bitss.github.io/UMass2021/)"
 output: 
   xaringan::moon_reader:
-    footer: "These slides available at https://bitss.github.io/UMass20201/"
+    footer: "These slides available at https://bitss.github.io/UMass2021/"
     css: [default, metropolis, metropolis-fonts] 
     lib_dir: libs
     nature:
@@ -307,7 +307,7 @@ background-position: 50% 100%
 
 
 ---
-# .font80[Pre-Analysis Plans]
+# Pre-Analysis Plans
 <br>
 .font140[
 - PAPs are **extensive** methodological descriptions of the analysis to be performed before the endline data is collected
@@ -329,18 +329,27 @@ background-position: 50% 100%
 Christensen, Freese and Miguel (2020) suggest detailed information on:
 
 .pull-left[
+
 1 - Detail study design  
+
 2 - Sampling details  
+
 3 - Outcome Measures  
+
 4 - Index construction  
+
 5 - Multiple hypothesis adjustments  
+
 6 - Subgroup analysis  
 ]
 
 .pull-right[
 7 - Direction of the effect (optional)  
+
 8 - Exact statistical specification  
+
 9 - Structural model (optional)  
+
 10 - Timestamp  
 ]
 
@@ -404,7 +413,7 @@ name:acre
 In addition to reproducibility problems, there are two additional motivations for this projects:   
 ] 
 
-## Additional Motivation: More Inclusive Concept Scholarly Output
+## Motivation 2: More Inclusive Concept Scholarly Output
 
 .font120[
     <blockquote>
@@ -420,9 +429,11 @@ In addition to reproducibility problems, there are two additional motivations fo
 
 # .font90[Accelerating Computational Reproducibility (ACRe)]     
 
+.font120[
 In addition to reproducibility problems, there are two additional motivations for this projects:   
+] 
 
-##  Additional Motivation: More Inclusive Concept Scholarly Output
+## Motivation 2: More Inclusive Concept Scholarly Output
 
 .font120[
     <blockquote>
@@ -2147,6 +2158,6 @@ When there is little information for a parameter used in an OPA, a forecasting e
 
 
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
 pagedown::chrome_print("01_slides.html", output = "01_slides.pdf")
 ```
